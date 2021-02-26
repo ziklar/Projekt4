@@ -1,3 +1,4 @@
+/* burgermenu start */
 *{
   margin: 0;
   padding: 0;
@@ -24,7 +25,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0 0 0 0;
   transition: right .8s cubic-bezier(1, 0, 0, 1);
 }
 
@@ -109,3 +109,4 @@ body {
 .nav-link:hover::after {
   transform: scaleX(1);
 }
+/* burgermenu slut */
