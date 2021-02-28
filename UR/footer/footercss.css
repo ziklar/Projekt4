@@ -1,5 +1,11 @@
-footer {
+
+.footerbg {
      background: #303030 url(ur_bg.png) no-repeat top center;
+     background-size: 100%;
+     padding-bottom: 1000px;
+     color: #fff;
+ }
+
 }
 .containerdiv {
 display: block;
