@@ -1,0 +1,38 @@
+footer {
+     background: #303030 url(ur_bg.png) no-repeat top center;
+}
+.containerdiv {
+display: block;
+}
+
+.produkt {
+     float: left;
+     display: block;
+     margin-right: 1.23023%;
+     width: 15.64148%;
+}
+
+.produktitel {
+     color: #fff;
+     margin-bottom: 10px;
+     font-size: 18px;
+     font-weight: 700;
+}
+h4 {
+     font-family: "Roboto Condensed",sans-serif,arial;
+     font-size: 22px;
+     font-weight: 700;
+     line-height: 1.2;
+     margin-bottom: 12px;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+ text-transform: uppercase;
+ margin: 0 0 20px 0;
+}
+
+.kolonne {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
