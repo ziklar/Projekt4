@@ -1,3 +1,7 @@
+* {
+     margin: 0;
+     padding: 0;
+   }
 
 .footerbg {
      background: #303030 url(ur_bg.png) no-repeat top center;
@@ -6,16 +10,16 @@
      color: #fff;
  }
 
-
-.containerdiv {
-display: block;
+.top {
+     margin-top: 30px;
 }
 
 .produkt {
      float: left;
      display: block;
-     margin-right: 1.23023%;
-     width: 15.64148%;
+     margin-right: 2.5%;
+     width: 45%;
+     margin-left: 2.5%;
 }
 
 .produktitel {
@@ -41,4 +45,47 @@ h4 {
      list-style: none;
      padding: 0;
      margin: 0;
+     text-decoration: none;
+ }
+
+ a {
+     color:white; 
+     text-decoration:none;
+ }
+
+ .block {
+      display: block;
+ }
+ 
+.bottom {
+     margin-bottom: 40px;
+}
+
+.center {
+     text-align: center;
+}
+
+.span {
+    float: left;
+    display: block;
+    margin-right: 1.23023%;
+    width: 100%;
+}
+
+.copyright {
+          font-size: 10px;
+          font-weight: 100;
+          margin-bottom: 10px;
+}
+
+.socials {
+     font-size: 15px;
+}
+
+.fa {
+     display: inline-block;
+     font: normal normal normal 14px/1 FontAwesome;
+     font-size: inherit;
+     text-rendering: auto;
+     -webkit-font-smoothing: antialiased;
  }
