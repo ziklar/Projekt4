@@ -122,13 +122,12 @@ article {
 }
 
 article img {
-  width: 30%;
+  width: 50%;
   position: center;
   background-image: url(map.jpg);
-  background-position: center, top;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
-
 
 input[type=submit] {
   font-size: 20px;
@@ -146,7 +145,6 @@ input[type=submit]:hover {
 }
 
 .ask {
-  align-content: center;
   border-radius: 5px;
   padding: 3%;
 }
@@ -166,9 +164,15 @@ section {
   text-align: center;
   font-size: 13px;
   padding: 0;
-  margin: 1%;
-
+  margin: 0;
+  line-break: auto;
+  line-height: 160%;
 }
+
+section .vers {
+  word-spacing: 0;
+}
+
 section h2 {
   font-weight: bold;
   color: #56A0D3;
