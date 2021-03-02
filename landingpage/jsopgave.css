@@ -110,3 +110,70 @@ body {
   transform: scaleX(1);
 }
 /* burgermenu slut */
+
+article {
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+  background-color: #E4F0F8;
+  height: 100%;
+  font-family: arial;
+  
+}
+
+article img {
+  width: 30%;
+  
+}
+
+input[type=submit] {
+  font-size: 20px;
+  font-weight: bold;
+background-color: #689ECE;
+color: white;
+padding: 15px;
+border: none;
+border-radius: 8px;
+
+}
+  
+input[type=submit]:hover {
+  background-color: #5382ac;
+}
+
+.ask {
+  align-content: center;
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.find {
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.blog {
+  border-radius: 5px;
+  padding: 3%;
+}
+
+section {
+  background-color: white;
+  text-align: center;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 7px;
+  word-spacing: 0px;
+  line-break: auto;
+}
+section h2 {
+  font-weight: bold;
+  color: #56A0D3;
+  font-size: 25px;
+}
+
+section img {
+  width: 30%;
+}
+
