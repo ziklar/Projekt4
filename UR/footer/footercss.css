@@ -90,7 +90,7 @@ h4 {
      -webkit-font-smoothing: antialiased;
  }
 
- @media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 720px) {
 
  .footerbg {
      background: #303030 url(ur_bg.png) no-repeat top center;
@@ -194,7 +194,7 @@ h4 {
      float: left;
      display: block;
      margin-right: 1.23023%;
-     width: 74.69244%;
+     width: 100%;
  }
 
  .inline {
@@ -202,6 +202,9 @@ h4 {
      font-weight: 300;     
      margin-right: 30px;
      margin-left: 1%;
+     
  }
+ .center {
+     text-align: left;
 
-}
+} */
