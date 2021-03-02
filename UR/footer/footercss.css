@@ -1,0 +1,181 @@
+* {
+     margin: 0;
+     padding: 0;
+   }
+
+.footerbg {
+     background: #303030 url(ur_bg.png) no-repeat top center;
+     background-size: 100%;
+     padding-bottom: 1000px;
+     color: #fff;
+ }
+
+.top {
+     margin-top: 30px;
+}
+
+.produkt {
+     float: left;
+     display: block;
+     margin-right: 2.5%;
+     width: 45%;
+     margin-left: 2.5%;
+}
+
+.produktitel {
+     color: #fff;
+     margin-bottom: 10px;
+     font-size: 18px;
+     font-weight: 700;
+}
+h4 {
+     font-family: "Roboto Condensed",sans-serif,arial;
+     font-size: 22px;
+     font-weight: 700;
+     line-height: 1.2;
+     margin-bottom: 12px;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+ text-transform: uppercase;
+ margin: 0 0 20px 0;
+}
+
+.kolonne {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+ }
+
+ a {
+     color:white; 
+     text-decoration:none;
+ }
+
+ .block {
+      display: block;
+ }
+ 
+.bottom {
+     margin-bottom: 40px;
+}
+
+.center {
+     text-align: center;
+}
+
+.span {
+    float: left;
+    display: block;
+    margin-right: 1.23023%;
+    width: 100%;
+}
+
+.copyright {
+          font-size: 10px;
+          font-weight: 100;
+          margin-bottom: 10px;
+}
+
+.socials {
+     font-size: 15px;
+}
+
+.fa {
+     display: inline-block;
+     font: normal normal normal 14px/1 FontAwesome;
+     font-size: inherit;
+     text-rendering: auto;
+     -webkit-font-smoothing: antialiased;
+ }
+
+ @media only screen and (min-width: 1200px) {
+
+ .footerbg {
+     background: #303030 url(ur_bg.png) no-repeat top center;
+     background-size: 100%;
+     padding-bottom: 1000px;
+     color: #fff;
+ }
+
+.top {
+     margin-top: 30px;
+}
+
+.produkt {
+     float: left;
+     display: block;
+     margin-right: 2.5%;
+     width: 10%;
+     margin-left: 2.5%;
+}
+
+.produktitel {
+     color: #fff;
+     margin-bottom: 10px;
+     font-size: 18px;
+     font-weight: 700;
+}
+h4 {
+     font-family: "Roboto Condensed",sans-serif,arial;
+     font-size: 22px;
+     font-weight: 700;
+     line-height: 1.2;
+     margin-bottom: 12px;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+ text-transform: uppercase;
+ margin: 0 0 20px 0;
+}
+
+.kolonne {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+ }
+
+ a {
+     color:white; 
+     text-decoration:none;
+ }
+
+ .block {
+      display: block;
+ }
+ 
+.bottom {
+     margin-bottom: 40px;
+}
+
+.center {
+     text-align: center;
+}
+
+.span {
+    float: left;
+    display: block;
+    margin-right: 1.23023%;
+    width: 100%;
+}
+
+.copyright {
+          font-size: 10px;
+          font-weight: 100;
+          margin-bottom: 10px;
+}
+
+.socials {
+     font-size: 15px;
+}
+
+.fa {
+     display: inline-block;
+     font: normal normal normal 14px/1 FontAwesome;
+     font-size: inherit;
+     text-rendering: auto;
+     -webkit-font-smoothing: antialiased;
+ }
+}
