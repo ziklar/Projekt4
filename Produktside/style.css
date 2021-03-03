@@ -423,7 +423,7 @@ nav {
    color: #554;
  }
  .text h1{
-   font-size: 50px;
+   font-size: 30px;
    color: #689ECE;
  }
  .text p{
@@ -499,7 +499,7 @@ nav {
  section p span:hover{
    color: #689ece;
  }
- /*slut slider*/
+ /* slut slider SPAN:NTH OG SECTION P SPAN SKAL REDIGERES TIL 0.7% og 94% FOR DEN IKKE KAN SCROLLE PÅ X-AKSEN */
 
 /*sidste før footer*/
 article {
@@ -513,7 +513,7 @@ article {
 }
 
 article img {
-  width: 30%;
+  width: 65.5%;
   position: center;
 }
 
@@ -565,77 +565,23 @@ input[type=submit]:hover {
   font-weight: bold;
   color: #56A0D3;
   font-size: 25px;
+  height: 50px;
 }
 
 .section2 img {
-  width: 30%;
+  width: 65%;
 }
+
+.textsection {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
 /*slut før footer*/
 
 
-
-/* Nav Bar start */
-
-.ur-logo {
-  width: 18%;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 12vh;
-}
-
-.nav-linksbar {
-  display: flex;
-  width: 70%;
-  justify-content: space-around;
-  padding-top: 20px;
-}
-
-.nav-linksbar li {
-  list-style: none;
-}
-
-.nav-linksbar a {
-  color: black;
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 16px;
-  font-weight: 900;
-  font-family: Arial;
-}
-
-
-.button2 {
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: -6px -2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-   
-   
-  .button2 {
-    background-color: #689ECE; 
-    color: white; 
-    border: 2px solid #ffffff;
-    border-radius: 35px;
-    width: 200px;
-  }
-   
-  .button2:hover {
-    background-color: #008CBA;
-    color: white;
-  }
-
-  /* Nav Bar Slut */
 
 
 
@@ -646,7 +592,7 @@ nav {
     width: 40%;
     float: left;
     background: white;
-    margin: 40px 30px 0px 20px;
+    margin: 40px 30px 0px 30px;
    box-sizing: border-box;
    border: 2px solid black;
    }
@@ -655,6 +601,12 @@ nav {
     background: white;
     align-items: center;
   }
+
+  .container ul {
+    padding: 0px;
+    margin: 0px;
+  }
+
 }
 /*carousel*/
 
@@ -691,6 +643,75 @@ nav {
     padding: 0;
     overflow-x: hidden;
   }
+
+  .urlogo1 {
+    display: none;
+    z-index: 1;
+  }
+
+/*navbar koder*/
+
+.ur-logo {
+  width: 26%;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 12vh;
+}
+
+.nav-linksbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nav-linksbar li {
+  list-style: none;
+}
+
+.nav-linksbar a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.button2 {
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -6px -2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+   /* HJÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆLP */
+   
+  .button2 {
+    background-color: #689ECE; 
+    color: white; 
+    border: 2px solid #ffffff;
+    border-radius: 35px;
+    width: 200px;
+  }
+   
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  /* Slut Nav Bar */
+  
   article img {
     width: 50%;
   }
@@ -704,12 +725,11 @@ nav {
   }
 
   
-
   .container ul li {
     list-style: none;
     width: 20%;
     background: white;
-    margin: 40px 30px 0px 20px;
+    margin: 40px 30px 0px 30px;
    box-sizing: border-box;
    border: 2px solid black;
    }
@@ -723,5 +743,16 @@ nav {
     margin-right: 5px;
     font-size: 20px;
   }
+  
+  /*section*/
+
+  .section2 img {
+  width: 35%;
 }
+
+/*Slut section */ 
+
+}
+
+
 
