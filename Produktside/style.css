@@ -190,7 +190,7 @@ nav {
 }
 
 /* Caption text */
-.text {
+.text1 {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -326,11 +326,7 @@ nav {
       text-transform: capitalize;
       color: black;
     }
-    
 
-
-
-   
     
      /* knap kode*/
     .knapbox{
@@ -410,98 +406,173 @@ nav {
   margin-bottom: 50px;
   }
 
- /*hvidbox text*/
- .whitebox{
- width: 100%;
- display: flex;
- margin-top: 50px;
- margin-bottom: 30px;
-}
 
-.titelhvid {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.titelhvid h3 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 25px; 
-  font-weight: 1000;
-  display: block;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-transform: uppercase;
-  color:#56A0D3;
-}
-
-.hvidtext {
-  display: block;
-  width: 100%;
-  height: 100px;
-  margin-top: 30px; 
-  margin-bottom: 15px;
-  padding-top: 1px;
-
-}
-
-.hvidtext p {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 21px;
-  text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-bottom: 20px;
-
-}
-
-
-
-
-
-@media only screen and (min-width: 700px) {
-
-  .container ul li {
-    list-style: none;
-    width: 40%;
-    float: left;
-    background: white;
-    margin: 40px 30px 0px 20px;
+ /* CSS Document */
+ body{
+   font-family: 'Roboto', sans-serif;
+   margin: 10px auto;
+   padding: 20px;
+   background-color:white;
+ }
+ a{
+   text-decoration: none;
+ }
+ .text{
+   padding: 10px;
+   text-align: center;
+   color: #554;
+ }
+ .text h1{
+   font-size: 50px;
+   color: #689ECE;
+ }
+ .text p{
+   width: 60%;
+   padding: 5px;
+   margin: auto;
+   line-height: 30px;
+ }
+ .box{
+   min-width: 30%;
+   height: auto;
+   box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+   overflow: hidden;
+   margin: 25px;
+ }
+ .slide-img{
+   height: 450px;
+   position: relative;
+ }
+ .slide-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
    box-sizing: border-box;
-   border: 2px solid black;
+ }
+ .detail-box{
+   width: 100%;
+   height: 12%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   box-sizing: border-box;
+ 
+ }
+ .type a{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color:blue;
+ }
+ .type{
+   color:#222222;
+   margin: 5px 0px;
+   font-weight: 400;
+   letter-spacing: 0.5px;
+   padding-right: 8px;
+ }
+ .slider{
+   overflow: hidden;
+   width: 100%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ section p span{
+     position: absolute;
+     top: inherit;
+     font-size: 60px;
+     font-weight: bold;
+     color: purple;
+     cursor: pointer;
+     left: .5%;
+     z-index: 1;
    }
+   span:nth-of-type(2){
+     left: 98%;
+ 
+   }
+ section p span:hover{
+   color: #689ece;
+ }
+ /*slut slider*/
 
-  .container ul li .content{
-    background: white;
-    align-items: center;
-  }
+/*sidste før footer*/
+article {
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+  background-color: #E4F0F8;
+  height: 100%;
+  font-family: arial;
+  
 }
 
-@media only screen and (min-width: 1000px) {
+article img {
+  width: 30%;
+  position: center;
+}
 
-  .container ul li {
-    list-style: none;
-    width: 20%;
-    float: left;
-    background: white;
-    margin: 40px 30px 0px 20px;
-   box-sizing: border-box;
-   border: 2px solid black;
-   }
+input[type=submit] {
+  font-size: 20px;
+  font-weight: bold;
+background-color: #689ECE;
+color: white;
+padding: 15px;
+border: none;
+border-radius: 8px;
 
-  .container ul li .content{
-    background: white;
-    align-items: center;
-  }
-  .container ul li .content p {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 20px;
-  }
+}
+  
+input[type=submit]:hover {
+  background-color: #5382ac;
+}
+
+.ask {
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.find {
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.blog {
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.section2 {
+  background-color: white;
+  text-align: center;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  line-break: auto;
+  line-height: 160%;
+}
+
+.section2 .vers {
+  word-spacing: 0;
+}
+
+.section2 h2 {
+  font-weight: bold;
+  color: #56A0D3;
+  font-size: 25px;
+}
+
+.section2 img {
+  width: 30%;
+}
+/*slut før footer*/
+
+
 
 /* Nav Bar start */
 
@@ -537,8 +608,6 @@ nav {
 }
 
 
-
-
 .button2 {
     border: none;
     color: white;
@@ -568,4 +637,91 @@ nav {
 
   /* Nav Bar Slut */
 
+
+
+@media only screen and (min-width: 700px) {
+
+  .container ul li {
+    list-style: none;
+    width: 40%;
+    float: left;
+    background: white;
+    margin: 40px 30px 0px 20px;
+   box-sizing: border-box;
+   border: 2px solid black;
+   }
+
+  .container ul li .content{
+    background: white;
+    align-items: center;
+  }
 }
+/*carousel*/
+
+@media only screen and (max-width: 768px){
+  .slider{
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ 
+     span:nth-of-type(2){
+       left: 96%;
+       text-align: right;
+     }
+ .box{
+   min-width: 49%;
+   margin: 0 15px 0 0;
+ }
+ .detail-box{
+   font-size: 11px;
+ }
+ a{
+   padding: 6px 50px;
+ }
+ }
+
+
+@media only screen and (min-width: 1000px) {
+  *{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  article img {
+    width: 50%;
+  }
+
+  .burgerbox {
+    display: none;
+  }
+  .container {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+
+  .container ul li {
+    list-style: none;
+    width: 20%;
+    background: white;
+    margin: 40px 30px 0px 20px;
+   box-sizing: border-box;
+   border: 2px solid black;
+   }
+
+  .container ul li .content{
+    background: white;
+    align-items: center;
+  }
+  .container ul li .content p {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+}
+
