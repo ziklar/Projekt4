@@ -32,9 +32,8 @@ nav {
     color: #689ECE;
     text-decoration: none;
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 900;
-    font-family: Arial;
 }
 
 /* Slut nav bar */
@@ -253,4 +252,49 @@ nav {
 
 .logobillede {
   margin-left: 20%;
+}
+
+.designpatterns-header {
+  margin-left: 47%;
+  margin-bottom: 20px;
+}
+
+.karusselpic {
+  width: 70%;
+  margin-left: 18%;
+}
+
+.sliderpic {
+  width: 50%;
+  margin-left: 28%;
+}
+
+.urgif {
+  width: 50%;
+  margin-left: 28%;
+}
+
+.preview {
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+
+.slideshow-header {
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+
+.loading-header {
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+
+.progressive-header {
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+
+.progressive {
+  width: 50%;
+  margin-left: 28%;
 }
