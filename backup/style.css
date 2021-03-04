@@ -425,7 +425,7 @@ nav {
   }
 
 
- /* carousel*/ 
+ /* carousel */
  *{
   padding: 10px auto;
   margin: 10;
@@ -439,7 +439,6 @@ main{
   padding: 5px 10px;
 
 }
-
 main .text{
   padding: 10px;
   text-align: center;
@@ -449,114 +448,107 @@ main .text{
   font-size: 50px;
   color: #689ECE;
 }
-
 .text p{
   width: 60%;
   padding: 10px;
   margin: auto;
   line-height: 30px;
 }
-
 main header{
   width: 98%;
   height: 60px;
   margin: 0 auto;
   align-items: center;
   display: flex;
-  padding: 0;
+  padding: 20px;
   justify-content: space-between;
-  overflow-y: auto;
-
+  border-bottom: 2px solid #ddd;
 }
-
-header p span1{
+header p span{
   font-size: 60px;
   margin: 0 5px;
   width: 30px;
-  height: 45px;
+  height: 30px;
   display: inline-block;
   line-height: 19px;
   text-align: center;
   border-radius: 3px;
   }
 
-  header p span1{
-    position: absolute;
-    top: 70%;
-    font-weight: bold;
-    color: purple;
-    cursor: pointer;
-    left: .2%;
-    z-index: 1;
-  }
-  span1:nth-of-type(2){
-    left: 98%;
-    text-align: right;
-  }
-
-  header p span1:hover{
-    color: #689ece;
-  }
-
-  section{ /*her er fejlen*/
-    width: 90%;
-    height: 800px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    overflow-x: auto;
-  }
-
-  section::-webkit-scrollbar{
-    display: none;
-  }
-  section .product{
-    min-width: 31%;
-    height: auto;
-    background: white;
-    margin-top: 0 20px 0 0;
-    border-radius: 20px;
-    position: relative;
-    left: 0;
-    transition: 0.5s;
-  }
-  picture{
-    width: 95%;
-    height: 95%;
-    padding: 5px;
-    display: flex;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
-  picture img{
-  width: 100%;
-  }
-  b{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  header p span{
+      position: absolute;
+      top: 70%;
+      font-weight: bold;
+      color: purple;
+      cursor: pointer;
+      left: .2%;
+      z-index: 1;
+    }
+    span:nth-of-type(2){
+      left: 98%;
+      text-align: right;
+    }
+header p span:hover{
+  color: #689ece;
+}
+section{
+  width: 90%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
+section::-webkit-scrollbar{
+  display: none;
+}
+section .product{
+  min-width: 31%;
+  height: auto;
+  background: white;
+  margin-top: 0 20px 0 0;
+  border-radius: 20px;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+}
+picture{
+  width: 95%;
+  height: 95%;
+  padding: 5px;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+picture img{
+width: 100%;
+}
+b{
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+a{
     font-size: 12px;
-  }
-  a{
-      font-size: 12px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color:blue;
-  }
-  /* link som knap
-  a{
-    text-decoration: none;
-    padding: 6px 14px;
-    font-size: 15px;
-    margin: 5px 0 0 20px;
-    display: inline-block;
-    background: #6773ff;
-    color: white;
-  }
-  */
-
+  padding: 15px;
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  color:blue;
+}
+/* link som knap
+a{
+  text-decoration: none;
+  padding: 6px 14px;
+  font-size: 15px;
+  margin: 5px 0 0 20px;
+  display: inline-block;
+  background: #6773ff;
+  color: white;
+}
+*/
+ 
  /* slut slider SPAN:NTH OG SECTION P SPAN SKAL REDIGERES TIL 0.7% og 94% FOR DEN IKKE KAN SCROLLE PÅ X-AKSEN */
 
 /*sidste før footer*/
@@ -616,6 +608,7 @@ input[type=submit]:hover {
 }
 
 
+
 .section2 h2 {
   font-weight: bold;
   color: #56A0D3;
@@ -643,33 +636,10 @@ input[type=submit]:hover {
 
 /*slut før footer*/
 
-/*footer*/
-
-.telefon {
-  display: flex;
-  width: 100%;
-}
-
-.web {
-  display: none;
-}
 
 
-@media only screen and (min-width: 440px) {
-.telefon{
-  display: none;
-}  
-.web {
-  display: flex;
-  width: 100%;
-}
 
-.web img{
-  width: 100%;
 
-}
-
-}
 @media only screen and (min-width: 700px) {
 
   .container ul li {
@@ -706,10 +676,10 @@ input[type=submit]:hover {
     header h1{
       font-size: 25px;
     }
-    header p span1{
+    header p span{
       font-size: 30px;
     }
-    header p span1{
+    header p span{
         top: 72%;
       }
 
@@ -721,12 +691,11 @@ section .product{
 a{
   padding: 6px 10px;
 }
-span1:nth-of-type(2){
+span:nth-of-type(2){
   left: 92%;
   text-align: right;
 }
 }
-
 
 
 @media only screen and (min-width: 1000px) {
