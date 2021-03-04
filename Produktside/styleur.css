@@ -21,6 +21,8 @@ body.loading {
   -webkit-transition: background-color white;
   transition: background-color white;
   opacity: 0;
+  align-items: center;
+  position: fixed;
   -webkit-transition: opacity 0;
   transition: opacity 0;
 }
@@ -757,7 +759,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 12vh;
+  max-height: 12vh;
 }
 
 .nav-linksbar {
@@ -783,6 +785,7 @@ nav {
 .button2 {
     border: none;
     color: white;
+    padding-top: 29px;
     padding: 14px 32px;
     text-align: center;
     text-decoration: none;
